@@ -135,7 +135,7 @@ WHERE
 | 14887  | Morty Schapiro | 118009     | 4919           | Northwestern Dr     | 111564949 |
 | 16371  | Annabel Miller | 490173     | 103            | Franklin Ave        | 318771143 |
 
-Ok, things started getting weirded with subqueries. They may not be as performatic as before, but there is not much data to queries so it won't hurt us as bad. Let's add their interviews and querie only the data that interests us
+Ok, things started getting weirded with subqueries. They may not be as performatic as before, but there is not that much data in the tables so it won't hurt us as bad. Let's add their interviews and querie only the data that interests us
 
 ```sql
 SELECT 
