@@ -1,3 +1,6 @@
+While roaming LinkedIn I found a post that showed a game where you solve the mistery by using SQL. This intrigued me and I had to solve it.
+Here is the link if anyone else is curious to solve it on their own and compare with my solution: [link](https://mystery.knightlab.com/)
+
 
 Lets start with this:
 
