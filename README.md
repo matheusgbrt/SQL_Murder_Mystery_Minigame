@@ -91,7 +91,7 @@ where
 ```
 
 
-With that out of the way, we can go step by step assembling the building blocks of these queries.
+With that out of the way, we can start assembling the building blocks of these queries.
 
 Let's start with the murderer.
 The first hint involves getting the crime scene report, that doesnt give much tabular info, just the hints.
