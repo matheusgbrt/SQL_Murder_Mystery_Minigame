@@ -112,7 +112,7 @@ where
 | date               | type   | description                                                                                                                                                                               | city     |
 | 20180115           | murder | Security footage shows that there were 2 witnesses. The first witness lives at the last house on "Northwestern Dr". The second witness, named Annabel, lives somewhere on "Franklin Ave". | SQL City |
 
-Using those hints, whe can querie for the personal information of the witnesses. Let's assemble them at the same time
+Using those hints, whe can query for the personal information of the witnesses. Let's assemble them at the same time
 
 ```sql
 SELECT 
@@ -135,7 +135,7 @@ WHERE
 | 14887  | Morty Schapiro | 118009     | 4919           | Northwestern Dr     | 111564949 |
 | 16371  | Annabel Miller | 490173     | 103            | Franklin Ave        | 318771143 |
 
-Ok, things started getting weirded with subqueries. They may not be as performatic as before, but there is not that much data in the tables so it won't hurt us as bad. Let's add their interviews and querie only the data that interests us
+Ok, things started getting weirded with subqueries. They may not be as performatic as before, but there is not that much data in the tables so it won't hurt us as bad. Let's add their interviews and query only the data that interests us
 
 ```sql
 SELECT 
@@ -312,7 +312,7 @@ where
 | 291182          | 65  | 66     | blue      | red        | female | 08CM64       | Tesla    | Model S   |
 | 918773          | 48  | 65     | black     | red        | female | 917UU3       | Tesla    | Model S   |
 
-Ok, we have three women. Lets get their personal information in the same querie.
+Ok, we have three women. Lets get their personal information in the same query.
 ```sql
 select 
 	p.* 
@@ -388,7 +388,7 @@ having
 | 99716     | 3        |
 
 Ok, we have two people that attended three times in december 2017.
-lets add this to the first querie to narrow it down
+lets add this to the first query to narrow it down
 ```sql
 select 
 	p.*,
